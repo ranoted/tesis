@@ -406,7 +406,7 @@ footer{
         flex-direction: column-reverse;
     }
     .results-text>a{
-
+        margin-bottom: 60px;
     }
 }
 
