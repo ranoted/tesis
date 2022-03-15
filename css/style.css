@@ -40,10 +40,11 @@ nav{
     background: white;
     border-bottom: 1px solid transparent;
     box-shadow:  1px 1px 10px 0 rgba(0, 0, 0, .2);
-    /*transition: ease-in-out0.5s;*/
+    
     position: fixed;
     top: 0;
     z-index: 100;
+    transition: ease-in-out0.5s;
 }
 .nav{
     display: flex;
@@ -51,6 +52,7 @@ nav{
     height: 80px;
     width: 100%;
     align-items: center;
+    padding: 0 40px;
 }
 .nav .logo{
     height: 80px;
@@ -408,5 +410,90 @@ footer{
     .results-text>a{
         margin-bottom: 60px;
     }
+    .numbers{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .results-text{
+        width: 100%;
+    }
+    /*services responsive 800*/
+    .services{
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+    .box-skills{
+        margin: 0 0 40px 0;
+        
+    }
+    
+    .services>img{
+        width: 400px;
+    }
+    /*footer responsive 800*/
+    .footer{
+        justify-content: space-evenly;
+    }
+    .partfooter{
+        width: 40%;
+        margin-bottom: 40px;
+    }
 }
+@media screen and (max-width:600px){
+
+    .titulo{
+        font-size: 35px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .contenido-header{
+        height: 650px;
+    }
+    .nav{
+        padding: 0 10px;
+
+    }
+    .contenido-header>img{
+        width: 200px;
+    }
+    .enlaces-header{
+        display: none;
+    }
+    .hamburguer{
+        display: block;
+    }
+
+    /*about us responsive 600*/
+    .articulo{
+        width: 95%;
+    }
+    /*question responsive 600*/
+    .questions>img{
+        width: 200px;
+    }
+    /*results responsive 600*/
+    .numbers .number{
+        width: 95%;
+    }
+    .results-text h4{
+        font-size: 35px;
+        /* services*/
+        
+    }
+    .services>img{
+        width: 200px;
+    }
+    .box-skills h4{
+        width: 100%;
+        
+    }
+    /*footer*/
+    .partfooter{
+        width: 95%;
+        margin-bottom: 40px;
+    }
+}
+
 
