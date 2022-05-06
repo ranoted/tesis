@@ -1,0 +1,405 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	
+	
+	font-family: 'Roboto', sans-serif;
+	min-height: 100vh;
+}
+.contenedor-p {
+    width: 100%;
+   /* max-width: 1000px;*/
+    margin: auto;
+    overflow: hidden;
+    height: 120px;
+    background: #f2f2f2
+}
+.text-header {
+    
+   padding: 20px;
+   text-align: center;
+}
+.conten-1 {
+    
+    padding-top: 30px;
+}
+
+
+
+.contenedor-d {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 65px 0;
+    
+
+	/* Flexbox */
+	/* display: flex;
+	gap: 20px; */
+
+	/* Grid */
+	display: grid;
+grid-template-columns: 1fr 4fr;
+	gap: 20px;
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedor-conciertos {
+	/* Flexbox */
+	/* width: 70%;
+
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px; */
+
+	/* Grid */
+	display: grid;
+	grid-template-columns: repeat(1, 3fr);
+	gap: 20px;
+  
+}
+
+.car {
+	border-radius: 10px;
+	min-height: 100px;
+	font-weight: bold;
+	padding: 1px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    padding-top: 15px;
+    
+	/* Flexbox */
+	/* width: calc(33.33% - 20px); */
+}
+
+
+.car .textos {
+	height: 100%;
+	
+	/* Flebox */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	/* Grid */
+	/* display: grid;
+	grid-template-rows: 1fr auto; */
+}
+
+.banner {
+    
+	
+    
+    border: 10px solid rgb(219, 188, 170);
+    box-sizing: border-box;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+
+	/* Flexbox */
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	/* Grid */
+	/* display: grid;
+	grid-template-rows: auto auto auto;
+	align-items: center; */
+
+	
+}
+
+.c-button{
+    -webkit-text-size-adjust: 100%;
+    box-sizing: inherit;
+    font: inherit;
+    margin: 0;
+    text-transform: none;
+    -webkit-appearance: button;
+    font-size: 15px;
+    max-width: 150px;
+    min-width: 120px;
+    padding: 9px 12px 10px;
+    margin-top: 12px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 transparent;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    
+    white-space: nowrap;
+    position:relative;
+    border: 2px solid transparent;
+    outline: 0;
+    background-color: #0067b8;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.formed{
+    width: 10%;
+}
+@media screen and (max-width: 768px) {
+
+	
+	
+}
+
+.boton2{
+	
+	background-size: cover;
+	position: relative;
+	border: none;
+	cursor: pointer;
+	padding: 6px 10px;
+	color:aqua;
+	width: 103px;
+	height: 103px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.menu{
+	list-style: none;
+}
+.zocalo{
+	background-color: #0067b8;
+	height: 30px;
+	width: 400px;
+	margin-left: 5%;
+
+}
+.formas{
+	background-color: violet;
+	
+	height: 30px;
+	width: 400px;
+	margin-left: 5%;
+	
+}
+.material{
+	background-color: yellow;
+	height: 30px;
+	width: 400px;
+	margin-left: 5%;
+	
+}
+.canto{
+	background-color: red;
+	height: 30px;
+	width: 400px;
+	margin-left: 5%;
+	
+}
+.hueco{
+	background-color: black;
+	height: 30px;
+	width: 100px;
+	margin-left: 170px;
+	padding-top: 100px;
+}
+
+.contenedor-articulo2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: space-around;
+	
+}
+
+.articulo2 {
+    width: 29%;
+    background: rgb(255, 254, 254);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 45px 30px 60px 30px;
+    transition: 0.5s;
+	border-style: solid;
+}
+
+.articulo2:hover {
+    box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+}
+
+.articulo2>i {
+    font-size: 30px;
+    color: #fff;
+    background: #1FDE82;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+}
+
+.articulo2>h3 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.articulo2>p {
+    font-weight: 100;
+    color: #5D6678;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+.articulo2>a {
+    color: #5D6678;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.articulo2>a:hover {
+    color: #1FDE82;
+    transition: color .5s;
+}
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  
+}
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #ffffff; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #000000; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #000000; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+  
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+.ad{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #030303; 
+  border-color: #ab4493; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+.ad p{
+  color: #fff; 
+}
+
+
+span{
+  color: #000000; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+.hc1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #dadada;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+

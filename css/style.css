@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 
@@ -606,4 +607,60 @@ footer {
         width: 95%;
         margin-bottom: 40px;
     }
+
+
+    /* pagina diseño */
+
+    
+    .contenedor-d {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 65px 0;
+        
+    
+        /* Flexbox */
+        /* display: flex;
+        gap: 20px; */
+    
+        /* Grid */
+        display: grid;
+    
+        gap: 20px;
+    }
+
+.formed{
+    width: 10%;
+}
+.c-button{
+    -webkit-text-size-adjust: 100%;
+    box-sizing: inherit;
+    font: inherit;
+    margin: 0;
+    text-transform: none;
+    -webkit-appearance: button;
+    font-size: 15px;
+    max-width: 374px;
+    min-width: 120px;
+    padding: 9px 12px 10px;
+    margin-top: 12px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 transparent;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    vertical-align: bottom;
+    white-space: nowrap;
+    position: relative;
+    border: 2px solid transparent;
+    outline: 0;
+    background-color: #0067b8;
+    color: #fff;
+    margin-bottom: 12px;
+}
+ 
+
 }
